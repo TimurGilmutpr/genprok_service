@@ -1,0 +1,82 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ===== Virtualenv / Conda =====
+.venv/
+venv/
+ENV/
+env/
+.env
+.env.*
+!.env.example
+
+# ===== Jupyter =====
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ===== Логи =====
+*.log
+logs/
+vllm_rag.log
+.vllm_rag.log
+
+# ===== Базы данных и индексы RAG =====
+*.db
+*.sqlite
+*.sqlite3
+rag_system.db
+student_dashboard.db
+.rag_system.db
+rag_faiss.index
+.rag_faiss.index
+rag_meta.pkl
+
+# ===== Загрузки =====
+uploads/
+
+# ===== Node / Frontend =====
+node_modules/
+dist/
+dist-ssr/
+*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ===== Редакторы / OS =====
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ===== Прочее =====
+*.save
+*.bak
+*.tmp
+untitled.txt

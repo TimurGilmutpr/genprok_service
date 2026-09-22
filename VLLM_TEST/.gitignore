@@ -1,0 +1,8 @@
+.env
+rag_system.db
+.vllm_rag.log
+.rag_faiss.index
+.rag_system.db
+.ipynb_checkpoints
+__pycache__/
+uploads/
